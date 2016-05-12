@@ -1,7 +1,8 @@
 {
-  "name": "react self contained services",
+  "name": "react-self-contained-services",
   "version": "0.1.0",
   "description": "This is a proof of concept of self contained services with a react frontend",
+  "license" : "GNU General Public License v3.0",
   "config" : {
     "port" : {
       "webservice" : "9000",
@@ -22,7 +23,7 @@
     "url": "https://github.com/roughy/react-self-contained-services/issues"
   },
   "homepage": "https://github.com/roughy/react-self-contained-services",
-  "private": false,
+  "private": true,
   "dependencies": {
     "express": "^4.13.4",
     "path": "^0.12.7"
