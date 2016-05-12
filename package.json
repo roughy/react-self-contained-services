@@ -1,0 +1,30 @@
+{
+  "name": "react self contained services",
+  "version": "0.1.0",
+  "description": "This is a proof of concept of self contained services with a react frontend",
+  "config" : {
+    "port" : {
+      "webservice" : "9000",
+      "noteservice" : "9001",
+      "userservice" : "9002"
+    }
+  },
+  "scripts": {
+    "startWebService": "node webservice/WebService.js",
+    "startNoteService": "node noteservice/NoteService.js",
+    "startUserService": "node userservice/UserService.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roughy/react-self-contained-services"
+  },
+  "bugs": {
+    "url": "https://github.com/roughy/react-self-contained-services/issues"
+  },
+  "homepage": "https://github.com/roughy/react-self-contained-services",
+  "private": false,
+  "dependencies": {
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}
